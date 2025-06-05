@@ -1,0 +1,77 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.App-main {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+hr {
+  margin: 40px 0;
+  border-top: 2px solid #007bff;
+}
+
+.App-footer {
+  background-color: #343a40;
+  color: #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.qr-generator-container {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.qr-generator-container textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.qr-generator-container button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.qr-generator-container button:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.qr-generator-container img {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ddd;
+}

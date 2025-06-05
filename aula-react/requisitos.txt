@@ -1,0 +1,9 @@
+Requisitos: Nodejs
+Verificando versões: node -v, npm -v, npx -v
+Limpar terminal: cls
+
+Criando o projeto: npx create-react-app aula1-app
+
+We suggest that you begin by typing:
+cd aula1-app
+npm start
