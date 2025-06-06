@@ -1,0 +1,18 @@
+## Como usar
+Para rodar só o backend:
+´´´
+cd backend
+npm start
+´´´
+
+Para rodar só o frontend:
+´´´
+cd frontend
+npm start
+´´´
+Para rodar ambos juntos na raiz:
+´´´
+npm run start
+# ou para modo desenvolvimento com nodemon
+npm run dev
+´´´
